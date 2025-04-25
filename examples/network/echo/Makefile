@@ -13,3 +13,7 @@ create-network-identifiers:
 	$(MKID) --outfile=ids/echo-server.json
 	$(MKID) --outfile=ids/echo-client.json
 	$(MKALIASES) --include ids/echo-server.json --include ids/echo-client.json --outfile aliases.json
+
+remove-network-identifiers:
+	rm -rf ids
+	rm -f aliases.json

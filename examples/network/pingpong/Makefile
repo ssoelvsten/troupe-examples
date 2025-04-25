@@ -13,3 +13,7 @@ create-network-identifiers:
 	$(MKID) --outfile=ids/pingpong-listener.json
 	$(MKID) --outfile=ids/pingpong-dialer.json
 	$(MKALIASES) --include ids/pingpong-listener.json --include ids/pingpong-dialer.json --outfile aliases.json
+
+remove-network-identifiers:
+	rm -rf ids
+	rm -f aliases.json
