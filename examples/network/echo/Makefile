@@ -1,6 +1,6 @@
 MKID=node $(TROUPE)/rt/built/p2p/mkid.mjs
 MKALIASES=node $(TROUPE)/rt/built/p2p/mkaliases.js
-START=$(TROUPE)/bin/network.sh
+START=$(TROUPE)/network.sh
 
 echo-server:
 

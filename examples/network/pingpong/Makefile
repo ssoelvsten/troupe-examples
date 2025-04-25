@@ -1,6 +1,6 @@
 MKID=node $(TROUPE)/rt/built/p2p/mkid.mjs
 MKALIASES=node $(TROUPE)/rt/built/p2p/mkaliases.js
-START=$(TROUPE)/bin/network.sh
+START=$(TROUPE)/network.sh
 
 zero.listener:
 	$(START) zero.trp --id=ids/pingpong-listener.json --rspawn=true --aliases=aliases.json --debug --debugp2p
