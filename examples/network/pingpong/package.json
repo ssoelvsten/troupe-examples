@@ -1,0 +1,14 @@
+{
+  "name": "pingpong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mktrustmap.mjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^15.0.4"
+  }
+}
